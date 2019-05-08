@@ -1,9 +1,9 @@
 // Import React
-import React from 'react'
+import React from 'react';
 // Import Spectacle Core tags
-import { Deck, Heading, List, ListItem, Slide, Text } from 'spectacle'
+import { Deck, Heading, List, ListItem, Slide, Text } from 'spectacle';
 // Import theme
-import createTheme from 'spectacle/lib/themes/default'
+import createTheme from 'spectacle/lib/themes/default';
 
 // Require CSS
 require('normalize.css')
@@ -54,9 +54,9 @@ export default class Presentation extends React.Component {
             Thank You!
           </Heading>
           <List>
-            <ListItem>My wife's parents</ListItem>
+            <ListItem>Bekah</ListItem>
             <ListItem>
-              All StirTrek Organizers, Volunteers and Attendees
+              All NDC Minnesota Organizers, Volunteers and Attendees
             </ListItem>
           </List>
         </Slide>
