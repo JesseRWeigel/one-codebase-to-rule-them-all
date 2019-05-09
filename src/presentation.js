@@ -1,9 +1,9 @@
 // Import React
-import React from 'react';
+import React from 'react'
 // Import Spectacle Core tags
-import { Deck, Heading, List, ListItem, Slide, Text } from 'spectacle';
+import { Deck, Heading, List, ListItem, Slide, Text } from 'spectacle'
 // Import theme
-import createTheme from 'spectacle/lib/themes/default';
+import createTheme from 'spectacle/lib/themes/default'
 
 // Require CSS
 require('normalize.css')
@@ -162,6 +162,10 @@ export default class Presentation extends React.Component {
             <ListItem>Electron</ListItem>
             <ListItem>
               React XP is working on rendering to Windows App (UWP)
+            </ListItem>
+            <ListItem>
+              React Native for Windows allows you to build Windows apps (PCs,
+              tablets, 2-in-1s, Xbox, Mixed reality devices etc.)
             </ListItem>
           </List>
         </Slide>
