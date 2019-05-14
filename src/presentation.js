@@ -1,9 +1,13 @@
 // Import React
 import React from 'react'
 // Import Spectacle Core tags
-import { Deck, Heading, List, ListItem, Slide, Text } from 'spectacle'
+import { Deck, Heading, List, ListItem, Slide, Text, Image } from 'spectacle'
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
+
+import twitter from './assets/twitter-mobile.png'
+import mls from './assets/mls.png'
+import dataCamp from './assets/dataCamp.png'
 
 // Require CSS
 require('normalize.css')
@@ -13,11 +17,11 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE',
+    quartenary: '#CECECE'
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica',
+    secondary: 'Helvetica'
   }
 )
 
@@ -49,7 +53,7 @@ export default class Presentation extends React.Component {
             <ListItem>Volunteer Live Coder for freeCodeCamp</ListItem>
           </List>
         </Slide>
-        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        {/* <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             Thank You!
           </Heading>
@@ -59,7 +63,7 @@ export default class Presentation extends React.Component {
               All NDC Minnesota Organizers, Volunteers and Attendees
             </ListItem>
           </List>
-        </Slide>
+        </Slide> */}
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             What is React Native
@@ -73,6 +77,17 @@ export default class Presentation extends React.Component {
               uses the same design as React, letting you compose a rich mobile
               UI using declarative components.
             </ListItem>
+          </List>
+        </Slide>
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={6} textColor="secondary" caps>
+            React Native is Used By
+          </Heading>
+          <List>
+            <ListItem>Facebook</ListItem>
+            <ListItem>WalMart</ListItem>
+            <ListItem>Bloomberg</ListItem>
+            <ListItem>Instagram</ListItem>
           </List>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
@@ -173,8 +188,34 @@ export default class Presentation extends React.Component {
           <Heading size={6} textColor="secondary" caps>
             Who is using React Native to build Web/Desktop Apps?
           </Heading>
+          <Image src={twitter} />
+          <Heading size={6} textColor="secondary" caps>
+            Twitter Mobile
+          </Heading>
+        </Slide>
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={6} textColor="secondary" caps>
+            Who is using React Native to build Web/Desktop Apps?
+          </Heading>
+          <Image src={mls} />
+          <Heading size={6} textColor="secondary" caps>
+            Major League Soccer
+          </Heading>
+        </Slide>
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={6} textColor="secondary" caps>
+            Who is using React Native to build Web/Desktop Apps?
+          </Heading>
+          <Image src={dataCamp} />
+          <Heading size={6} textColor="secondary" caps>
+            Data Camp
+          </Heading>
+        </Slide>
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={6} textColor="secondary" caps>
+            Who is using React Native to build Web/Desktop Apps?
+          </Heading>
           <List>
-            <ListItem>Twitter (RNW)</ListItem>
             <ListItem>Uber (RNW)</ListItem>
             <ListItem>Major League Soccer (RNW)</ListItem>
             <ListItem>DataCamp (RNW)</ListItem>
