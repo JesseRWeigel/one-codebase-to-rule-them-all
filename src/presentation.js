@@ -1,13 +1,12 @@
 // Import React
 import React from 'react'
 // Import Spectacle Core tags
-import { Deck, Heading, List, ListItem, Slide, Text, Image } from 'spectacle'
+import { Deck, Heading, Image, List, ListItem, Slide, Text } from 'spectacle'
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
-
-import twitter from './assets/twitter-mobile.png'
-import mls from './assets/mls.png'
 import dataCamp from './assets/dataCamp.png'
+import mls from './assets/mls.png'
+import twitter from './assets/twitter-mobile.png'
 
 // Require CSS
 require('normalize.css')
@@ -17,11 +16,11 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE'
+    quartenary: '#CECECE',
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica'
+    secondary: 'Helvetica',
   }
 )
 
@@ -53,17 +52,17 @@ export default class Presentation extends React.Component {
             <ListItem>Volunteer Live Coder for freeCodeCamp</ListItem>
           </List>
         </Slide>
-        {/* <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             Thank You!
           </Heading>
           <List>
-            <ListItem>Bekah</ListItem>
+            <ListItem>Tom, Dave, and my team from DSG</ListItem>
             <ListItem>
-              All NDC Minnesota Organizers, Volunteers and Attendees
+              All Abstractions Organizers, Volunteers and Attendees
             </ListItem>
           </List>
-        </Slide> */}
+        </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             What is React Native
@@ -224,7 +223,19 @@ export default class Presentation extends React.Component {
             <ListItem>Monterail (RXP)</ListItem>
           </List>
         </Slide>
-
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+          <Heading size={6} textColor="secondary" caps>
+            Accessibility with React Native Web
+          </Heading>
+          <List>
+            <ListItem>
+              Provides props for common web accessibilty features
+            </ListItem>
+            <ListItem>
+              Allows for direct manipulation of underlying HTML elements
+            </ListItem>
+          </List>
+        </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             See it in action!
