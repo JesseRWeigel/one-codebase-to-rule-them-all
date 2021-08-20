@@ -47,12 +47,12 @@ export default class Presentation extends React.Component {
           </Heading>
           <List>
             <ListItem>
-              Senior Software Engineeer at Dick's Sporting Goods
+              Head of Engineering at Tabella
             </ListItem>
-            <ListItem>Volunteer Live Coder for freeCodeCamp</ListItem>
+            <ListItem>Live Coder on YouTube</ListItem>
           </List>
         </Slide>
-        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        {/* <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             Thank You!
           </Heading>
@@ -62,7 +62,7 @@ export default class Presentation extends React.Component {
               All Abstractions Organizers, Volunteers and Attendees
             </ListItem>
           </List>
-        </Slide>
+        </Slide> */}
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             What is React Native
@@ -138,10 +138,10 @@ export default class Presentation extends React.Component {
               web
             </ListItem>
             <ListItem>Has the largest community</ListItem>
-            <ListItem>Official Expo support is under development</ListItem>
+            <ListItem>Official Expo support</ListItem>
           </List>
         </Slide>
-        <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        {/* <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             React XP
           </Heading>
@@ -167,18 +167,18 @@ export default class Presentation extends React.Component {
               for mobile and web (Metro), layout parity (Yoga and WASM)
             </ListItem>
           </List>
-        </Slide>
+        </Slide> */}
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Heading size={6} textColor="secondary" caps>
             You can build desktop apps too!
           </Heading>
           <List>
             <ListItem>Electron</ListItem>
-            <ListItem>
+            {/* <ListItem>
               React XP is working on rendering to Windows App (UWP)
-            </ListItem>
+            </ListItem> */}
             <ListItem>
-              React Native for Windows allows you to build Windows apps (PCs,
+              React Native for Windows allows you to build Windows and Mac apps (PCs,
               tablets, 2-in-1s, Xbox, Mixed reality devices etc.)
             </ListItem>
           </List>
@@ -242,8 +242,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <List>
             <ListItem>
-              I am creating an app using React Native Web live on the
-              freeCodeCamp YouTube channel
+              I have a series on the freeCodeCamp YouTube channel using React Native Web to create an app.
             </ListItem>
             <ListItem>github.com/JesseRWeigel/battlemath</ListItem>
           </List>
